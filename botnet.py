@@ -65,6 +65,5 @@ def get_arguments():
     add_bot(host, user, password)
 
 get_arguments()
-
-# list user home directory
+# displays content of passwd file
 command_bots('cat /etc/passwd')
