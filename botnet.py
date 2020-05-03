@@ -2,8 +2,8 @@
 
 '''
 This is a POC of a very simple botnet, where after acquiring a target's credentials
-the attacker connects through ssh and executes the command 'cat /etc/passwd' on the target's system.
-Usage: python3 botnet.py -i IPaddress -u Username -p Password
+the attacker connects through SSH and executes the command 'cat /etc/passwd' on the target's system.
+Usage: python3 botnet.py -i <ipaddress> -u <username> -p <password>
 '''
 
 from pexpect import pxssh
